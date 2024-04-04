@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head> 
+<body>
+    <header>
+    <img src="./expense.jpg" alt=""></img>
+    <h2>Expense Tracker</h2>
+    </header>
+    <div class="main">
+   <h1 style="background-color: antiquewhite; border-radius: 4px; padding: 3px;">Balance: <span class="tot"></span></h1>
+    <div class="app"><div class="budget"><label for="bud">Add money to your budget </label><br><input id="budget" type="number"><button onclick="up()">Add budget</button></div>
+    <div class="ex"><div class="expense">
+         <label for="transaction">Add transaction</label><textarea name="Description" placeholder="Description" onfocus="change()" onblur="ch()" id="desc"></textarea>
+        <br><input style="width: 100px; margin-left: 199px;" id="expense" type="number"><button style="width: 104px; margin-left: 199px;" onclick="upd()">Add</button>
+   </div>
+    <div class="list" id="os">
+    
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
