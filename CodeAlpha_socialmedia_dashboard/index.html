@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Social Media Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title" style="display: flex; justify-content: center;">Social Media Dashboard</h1>
+      <h3 class="text" style="display: flex; justify-content: center;">Total Followers: 32006</h3>
+    </header>
+    <main>
+
+      <section class="card-section">
+        <div class="card fb" id="fb" onmouseenter="updf()" onmouseleave="updaf()"> 
+          <img src="./images/icon-facebook.svg" alt="" style="height:50%;">
+        </div>
+
+        <div class="card tw" id="tw" onmouseenter="updt()" onmouseleave="updat()">
+         <img src="./images/icon-twitter.svg" alt="" style="height:50%; ">
+        </div>
+
+        <div class="card in" id="ins" onmouseenter="updi()" onmouseleave="updai()">
+         <img src="./images/icon-instagram.svg" alt="" style="height:50%; ">
+        </div>
+
+        <div class="card yb" id="yb" onmouseenter="updy()" onmouseleave="upday()">
+         <img src="./images/icon-youtube.svg" alt="" style="height:50%; ">
+        </div>
+      </section>
+
+      <section class="overview-section">
+        <h2 class="overview-title">overview - today</h2>
+
+        <div class="overview-card" id="fbst" onmouseenter="updf()" onmouseleave="updaf()">
+         
+        </div>
+
+        <div class="overview-card" id="fbs" onmouseenter="updf()" onmouseleave="updaf()">
+        </div>
+
+        <div class="overview-card" id="tws" onmouseenter="updt()" onmouseleave="updat()">
+            
+        </div>
+
+        <div class="overview-card" id="twst" onmouseenter="updt()" onmouseleave="updat()">
+            
+        </div>
+
+        <div class="overview-card" id="int" onmouseenter="updi()" onmouseleave="updai()">
+          
+        </div>
+
+        <div class="overview-card" id="intt" onmouseenter="updi()" onmouseleave="updai()">
+         
+        </div>
+
+        <div class="overview-card"  id="ybs" onmouseenter="updy()" onmouseleave="upday()">
+         
+        </div>
+
+        <div class="overview-card"  id="ybst" onmouseenter="updy()" onmouseleave="upday()">
+        
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
